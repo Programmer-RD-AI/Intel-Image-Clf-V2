@@ -1,0 +1,164 @@
+2021-10-05 22:48:55,596 INFO    MainThread:345422 [internal.py:wandb_internal():89] W&B internal server running at pid: 345422, started at: 2021-10-05 22:48:55.596225
+2021-10-05 22:48:55,598 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: check_version
+2021-10-05 22:48:55,598 INFO    WriterThread:345422 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/run-32dh4yqb.wandb
+2021-10-05 22:48:55,599 DEBUG   SenderThread:345422 [sender.py:send():182] send: header
+2021-10-05 22:48:55,600 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: check_version
+2021-10-05 22:48:56,002 DEBUG   SenderThread:345422 [sender.py:send():182] send: run
+2021-10-05 22:48:56,004 DEBUG   SenderThread:345422 [git.py:repo():33] git repository is invalid
+2021-10-05 22:48:56,488 INFO    SenderThread:345422 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files
+2021-10-05 22:48:56,488 INFO    SenderThread:345422 [sender.py:_start_run_threads():743] run started: 32dh4yqb with start time 1633454335
+2021-10-05 22:48:56,488 DEBUG   SenderThread:345422 [sender.py:send():182] send: summary
+2021-10-05 22:48:56,489 INFO    SenderThread:345422 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 22:48:56,489 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: run_start
+2021-10-05 22:48:56,492 DEBUG   HandlerThread:345422 [meta.py:__init__():40] meta init
+2021-10-05 22:48:56,492 DEBUG   HandlerThread:345422 [meta.py:__init__():54] meta init done
+2021-10-05 22:48:56,492 DEBUG   HandlerThread:345422 [meta.py:probe():211] probe
+2021-10-05 22:48:56,498 DEBUG   HandlerThread:345422 [git.py:repo():33] git repository is invalid
+2021-10-05 22:48:56,498 DEBUG   HandlerThread:345422 [meta.py:_save_code():90] save code
+2021-10-05 22:48:56,498 WARNING HandlerThread:345422 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-10-05 22:48:56,498 DEBUG   HandlerThread:345422 [meta.py:_save_pip():58] save pip
+2021-10-05 22:48:56,499 DEBUG   HandlerThread:345422 [meta.py:_save_pip():72] save pip done
+2021-10-05 22:48:56,499 DEBUG   HandlerThread:345422 [meta.py:_save_conda():79] save conda
+2021-10-05 22:48:57,491 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-summary.json
+2021-10-05 22:48:57,491 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/conda-environment.yaml
+2021-10-05 22:48:57,491 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/requirements.txt
+2021-10-05 22:49:02,494 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/output.log
+2021-10-05 22:49:03,772 DEBUG   HandlerThread:345422 [meta.py:_save_conda():87] save conda done
+2021-10-05 22:49:03,772 DEBUG   HandlerThread:345422 [meta.py:probe():249] probe done
+2021-10-05 22:49:03,798 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-05 22:49:03,799 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 22:49:04,296 DEBUG   SenderThread:345422 [sender.py:send():182] send: files
+2021-10-05 22:49:04,299 INFO    SenderThread:345422 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-10-05 22:49:04,495 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/conda-environment.yaml
+2021-10-05 22:49:04,495 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/output.log
+2021-10-05 22:49:04,495 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-metadata.json
+2021-10-05 22:49:05,456 INFO    Thread-11 :345422 [upload_job.py:push():137] Uploaded file /tmp/tmpnn5pizawwandb/344xbmzb-wandb-metadata.json
+2021-10-05 22:49:19,297 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-05 22:49:19,297 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: stop_status
+2021-10-05 22:49:21,020 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:21,020 DEBUG   SenderThread:345422 [sender.py:send():182] send: telemetry
+2021-10-05 22:49:21,020 DEBUG   SenderThread:345422 [sender.py:send():182] send: exit
+2021-10-05 22:49:21,020 INFO    SenderThread:345422 [sender.py:send_exit():291] handling exit code: 0
+2021-10-05 22:49:21,020 INFO    SenderThread:345422 [sender.py:send_exit():293] handling runtime: 24
+2021-10-05 22:49:21,024 INFO    SenderThread:345422 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 22:49:21,025 INFO    SenderThread:345422 [sender.py:send_exit():303] send defer
+2021-10-05 22:49:21,025 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:21,025 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,025 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-05 22:49:21,026 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,026 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-10-05 22:49:21,026 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 1
+2021-10-05 22:49:21,026 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,026 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-05 22:49:21,098 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,098 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-10-05 22:49:21,098 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 2
+2021-10-05 22:49:21,098 DEBUG   SenderThread:345422 [sender.py:send():182] send: stats
+2021-10-05 22:49:21,098 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,098 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-05 22:49:21,098 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,098 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-10-05 22:49:21,099 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 3
+2021-10-05 22:49:21,099 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,099 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-05 22:49:21,099 DEBUG   SenderThread:345422 [sender.py:send():182] send: summary
+2021-10-05 22:49:21,099 INFO    SenderThread:345422 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-10-05 22:49:21,099 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,099 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-10-05 22:49:21,099 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 4
+2021-10-05 22:49:21,099 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,099 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-05 22:49:21,099 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,099 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-10-05 22:49:21,130 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:21,501 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-summary.json
+2021-10-05 22:49:21,501 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/output.log
+2021-10-05 22:49:21,587 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 5
+2021-10-05 22:49:21,587 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:21,588 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:21,588 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-05 22:49:21,588 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:21,588 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-10-05 22:49:21,588 INFO    SenderThread:345422 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-05 22:49:21,689 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:22,501 INFO    Thread-8  :345422 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/config.yaml
+2021-10-05 22:49:22,502 INFO    SenderThread:345422 [dir_watcher.py:finish():313] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files
+2021-10-05 22:49:22,502 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-summary.json wandb-summary.json
+2021-10-05 22:49:22,502 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/config.yaml config.yaml
+2021-10-05 22:49:22,502 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/conda-environment.yaml conda-environment.yaml
+2021-10-05 22:49:22,513 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-metadata.json wandb-metadata.json
+2021-10-05 22:49:22,514 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/requirements.txt requirements.txt
+2021-10-05 22:49:22,518 INFO    SenderThread:345422 [dir_watcher.py:finish():327] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/output.log output.log
+2021-10-05 22:49:22,518 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 6
+2021-10-05 22:49:22,523 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:22,523 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:22,523 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-05 22:49:22,527 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:22,527 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-10-05 22:49:22,527 INFO    SenderThread:345422 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-05 22:49:22,625 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:22,626 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:22,728 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:22,728 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:22,829 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:22,829 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:22,930 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:22,931 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,032 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,033 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,139 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,139 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,240 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,240 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,342 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,342 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,445 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,445 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,546 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,546 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,647 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,647 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,727 INFO    Thread-12 :345422 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/wandb-summary.json
+2021-10-05 22:49:23,748 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,749 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,797 INFO    Thread-15 :345422 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/requirements.txt
+2021-10-05 22:49:23,837 INFO    Thread-13 :345422 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/config.yaml
+2021-10-05 22:49:23,850 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,850 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:23,900 INFO    Thread-14 :345422 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/conda-environment.yaml
+2021-10-05 22:49:23,946 INFO    Thread-16 :345422 [upload_job.py:push():137] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/files/output.log
+2021-10-05 22:49:23,951 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:23,951 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:24,052 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:24,053 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:24,146 INFO    Thread-7  :345422 [sender.py:transition_state():316] send defer: 7
+2021-10-05 22:49:24,147 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:24,147 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-05 22:49:24,147 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:24,147 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-10-05 22:49:24,154 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:24,535 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 8
+2021-10-05 22:49:24,535 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:24,536 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:24,536 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-05 22:49:24,536 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:24,536 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-10-05 22:49:24,536 INFO    SenderThread:345422 [sender.py:transition_state():316] send defer: 9
+2021-10-05 22:49:24,537 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: defer
+2021-10-05 22:49:24,537 DEBUG   SenderThread:345422 [sender.py:send():182] send: final
+2021-10-05 22:49:24,537 INFO    HandlerThread:345422 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-05 22:49:24,537 DEBUG   SenderThread:345422 [sender.py:send():182] send: footer
+2021-10-05 22:49:24,537 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: defer
+2021-10-05 22:49:24,537 INFO    SenderThread:345422 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-10-05 22:49:24,637 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-05 22:49:24,637 DEBUG   SenderThread:345422 [sender.py:send_request():196] send_request: poll_exit
+2021-10-05 22:49:24,637 INFO    SenderThread:345422 [file_pusher.py:join():182] waiting for file pusher
+2021-10-05 22:49:24,639 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-05 22:49:24,639 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-05 22:49:24,640 DEBUG   HandlerThread:345422 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-05 22:49:24,640 INFO    HandlerThread:345422 [handler.py:finish():683] shutting down handler
+2021-10-05 22:49:25,537 INFO    WriterThread:345422 [datastore.py:close():281] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Intel-Image-Clf-V2/wandb/run-20211005_224844-32dh4yqb/run-32dh4yqb.wandb
+2021-10-05 22:49:25,637 INFO    SenderThread:345422 [sender.py:finish():979] shutting down sender
+2021-10-05 22:49:25,637 INFO    SenderThread:345422 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-05 22:49:25,638 INFO    SenderThread:345422 [file_pusher.py:join():182] waiting for file pusher
+2021-10-05 22:49:25,639 INFO    MainThread:345422 [internal.py:handle_exit():76] Internal process exited
